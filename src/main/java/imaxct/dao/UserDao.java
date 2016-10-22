@@ -3,6 +3,7 @@ package imaxct.dao;
 import imaxct.model.User;
 
 public class UserDao extends BaseDao<User>{
+	
 	public boolean saveUser(User user) {
 		if (user == null)
 			return false;
